@@ -14,3 +14,5 @@ js:
   - /assets/js/plugins.js
   - /assets/js/functions.js
   - /assets/js/googleAnalytics.js
+  - /assets/js/jquery.twentytwenty.js
+  - /assets/js/jquery.event.move.js
