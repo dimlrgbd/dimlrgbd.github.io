@@ -5,21 +5,21 @@ layout: default
 	============================================= -->
 	<!--<div id="wrapper" class="clearfix">
 
-		<div id="home" class="page-section" style="position:absolute;top:0;left:0;width:100%;height:200px;z-index:-2;"></div>
-        <section id="slider" class="slider-element full-screen with-header swiper_wrapper clearfix">
-            <div id="comparison" class="twentytwenty-container">
-                <img src="/images/comparison1.png">
-                <img src="/images/comparison2.png">
-            </div>
-        </section>-->
+<!-- Header
+============================================= -->
+{% include header.html %}
 
 		<section id="slider" class="slider-element slider-parallax full-screen with-header swiper_wrapper clearfix">
 
-			<div class="slider-parallax-inner">
+            <!---->
+
+                <!---->
+
+                <div class="slider-parallax-inner">
 
 				<div class="swiper-container swiper-parent">
 					<div class="swiper-wrapper">
-						<div class="swiper-slide dark" style="background-image: url('images/cover.jpg');">
+                        <div class="swiper-slide dark" style="background-image: url('images/cover.jpg');">
 							<div class="container clearfix">
 								<div class="slider-caption slider-caption-center">
 									<h2 data-caption-animate="fadeInUp">RGB+D DATASET</h2>
@@ -29,16 +29,10 @@ layout: default
 						</div>
 					</div>
 				</div>
-
+            </div>
 			</div>
 
 		</section>
-
-		<!-- Header
-		============================================= -->
-        {% include header.html %}
-
-		<div class="clear"></div>
 
 		<!-- Content
 		============================================= -->
@@ -134,19 +128,25 @@ layout: default
         <section id="section-rawdata" class="topmargin-lg">
             <div class="promo promo-dark promo-full promo-uppercase bottommargin">
                 <div class="container clearfix">
-            <h3> Download our full <span>Raw Dataset</span></h3>
-            <span>Are you ready to dive into our RGB-D Dataset?</span>
-          <a href="/rawdata" class="button button-xlarge button-rounded" data-animate="tada">Get Here</a>
-          </div>
+                    <h3> Download our full <span>Raw Dataset</span></h3>
+                    <span>Are you ready to dive into our RGB-D Dataset?</span>
+                    <a href="/rawdata" class="button button-xlarge button-rounded" data-animate="tada">Get Here</a>
+                </div>
+            </div>
         </section>
 
         <div class="clear"></div>
 
         {% include counter.html %}
 
-                {% include contact.html %}
+        <div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>
 
-            </section> <!-- wrapper -->
+        {% include contact.html %}
+
+
+        </section> <!-- wrapper -->
+
+
 
 		</section><!-- #content end -->
 
