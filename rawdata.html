@@ -15,22 +15,22 @@ layout: default
   ============================================= -->
   <section id="content">
 
-    <section class="content-wrap">
-      <section id="indoor" class="page-section section nomargin">
+    <!--<section class="content-wrap">-->
+      <section id="indoor" class="page-section section nomargin nobottompadding">
         <div class="heading-block center">
           <h2>Raw Dataset</h2>
           <span>Are you ready to dive into our RGB-D Dataset?</span>
         </div>
 
-        <div class="content-wrap nobottompadding">
-
           <div class="container clearfix">
+            <div class="heading-block center nobottomborder">
+              <h4><span>Indoor</span> Data</h4>
+              <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
+            </div>
 
             <!-- Portfolio Filter
                       ============================================-->
-            <div id="portfolio-shuffle1" class="portfolio-shuffle" data-container="#portfolio">
-              <i class="icon-random"></i>
-            </div>
+
 
           </div>
 
@@ -54,25 +54,17 @@ layout: default
             {% endfor %}
 
           </div>
-        </div>
       </section><!-- #content end -->
 
       <section id="outdoor" class="page-section section nomargin">
-      <div class="content-wrap nobottompadding">
-
-        <div class="container clearfix">
-
-          <!-- Portfolio Filter
-                    ============================================-->
-          <div id="portfolio-shuffle2" class="portfolio-shuffle" data-container="#portfolio">
-            <i class="icon-random"></i>
+          <div class="heading-block center nobottomborder">
+            <h4><span>Outdoor</span> Data</h4>
+            <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
           </div>
-
-        </div>
 
         <!-- Portfolio Items
                 ============================================= -->
-        <div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full clearfix">
+          <div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full clearfix">
 
           {% for label in site.data.rawdata.outdoor %}
           <article class="portfolio-item indoor">
@@ -89,11 +81,10 @@ layout: default
           {% endfor %}
 
         </div>
-      </div>
       </section><!-- #content end -->
 
       <div class="clear"></div>
 
     </section><!-- #content end -->
-  </section>
+  <!--</section>-->
 </div>

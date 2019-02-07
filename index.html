@@ -3,9 +3,15 @@ layout: default
 ---
 	<!-- Document Wrapper
 	============================================= -->
-	<div id="wrapper" class="clearfix">
+	<!--<div id="wrapper" class="clearfix">
 
 		<div id="home" class="page-section" style="position:absolute;top:0;left:0;width:100%;height:200px;z-index:-2;"></div>
+        <section id="slider" class="slider-element full-screen with-header swiper_wrapper clearfix">
+            <div id="comparison" class="twentytwenty-container">
+                <img src="/images/comparison1.png">
+                <img src="/images/comparison2.png">
+            </div>
+        </section>-->
 
 		<section id="slider" class="slider-element slider-parallax full-screen with-header swiper_wrapper clearfix">
 
@@ -39,31 +45,23 @@ layout: default
 		<section id="content">
 
 			<section class="content-wrap">
-
-
-
         <section id="section-overview" class="page-section section nobg nomargin">
           <div class="container clearfix">
-
             <div class="heading-block center">
               <h2>large-scale<span> RGB+D </span>Database</h2>
               <span>through comprehensive performance analysis.</span>
             </div>
             <div class="clear"></div>
-
             <div class="col_full">
-              <div class="heading-block fancy-title nobottomborder title-bottom-border">
-                <h4>Overview<span></span></h4>
-              </div>
 
-
-                test
-                <div id="comparison">
+                <div id="comparison" class="twentytwenty-container bottommargin-lg">
                     <img src="/images/comparison1.png">
                     <img src="/images/comparison2.png">
                 </div>
 
-
+              <div class="heading-block fancy-title nobottomborder title-bottom-border">
+                <h4>Overview<span></span></h4>
+              </div>
               <h4>We introduce an RGB-D scene dataset consisting of more than 200 indoor / outdoor scenes.</h4>
               <p>This dataset contains synchronized RGB-D frames from both Kinect v2 and Zed stereo camera. For the outdoor scene, we first generate disparity maps using an accurate stereo matching method and convert them using calibration parameters. A per-pixel confidence map of disparity is also provided. Our scenes are captured at various places, e.g., offices, rooms, dormitory, exhibition center, street, road etc., from Yonsei University and Ewha University</p>
               <p>This dataset has been used to train convolutional neural networks in our project [1] and for our papers[2], [3], [4] <br>
@@ -87,7 +85,7 @@ layout: default
             <div class="clear"></div>
 
             <ul class="clients-grid grid-3 nobottommargin clearfix">
-              <li><a href="diml.yonsei.ac.kr"><img src="images/clients/1.png" height="80" alt="Clients"></a></li>
+              <li><a href="http://diml.yonsei.ac.kr"><img src="images/clients/1.png" height="80" alt="Clients"></a></li>
               <li><a href="#"><img src="images/clients/2.png" height="80"  alt="Clients"></a></li>
               <li><a href="#"><img src="images/clients/3.png" height="80" alt="Clients"></a></li>
             </ul>
@@ -133,8 +131,9 @@ layout: default
 
         {%include sampledata.html %}
 
-        <section id="section-rawdata" class="page-section topmargin-lg">
-          <div class="promo promo-border promo-center bottommargin">
+        <section id="section-rawdata" class="topmargin-lg">
+            <div class="promo promo-dark promo-full promo-uppercase bottommargin">
+                <div class="container clearfix">
             <h3> Download our full <span>Raw Dataset</span> Here</h3>
             <span>Are you ready to dive into our RGB-D Dataset?</span>
           <a href="/rawdata" class="button button-xlarge button-rounded">Download Here</a>

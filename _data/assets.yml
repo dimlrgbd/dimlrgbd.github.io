@@ -8,11 +8,12 @@ css:
    - /assets/css/magnific-popup.css
    - /assets/css/responsive.css
    - https://use.fontawesome.com/releases/v5.2.0/css/all.css
+   - /assets/css/colors.css
+   - /assets/css/twentytwenty.css
 
 js:
   - /assets/js/jquery.js
   - /assets/js/plugins.js
   - /assets/js/functions.js
-  - /assets/js/googleAnalytics.js
   - /assets/js/jquery.twentytwenty.js
   - /assets/js/jquery.event.move.js
