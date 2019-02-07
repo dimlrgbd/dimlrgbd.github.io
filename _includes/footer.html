@@ -53,3 +53,38 @@
     });
 </script>
 
+<script src="https://maps.google.com/maps/api/js?key=AIzaSyAm7guc0Wkv3_mX9se0GP-qgA7nVPoChlQ"></script>
+<script src="/assets/js/jquery.gmap.js"></script>
+
+<script>
+
+    jQuery('#google-map').gMap({
+        latitude: 37.561948,
+        longitude: 126.935074,
+        maptype: 'ROADMAP',
+        zoom: 15,
+        markers: [
+            {
+                latitude: 37.561948,
+                longitude: 126.935074,
+                html: '<div style="width: 300px;" data-animate="bounceIn"><h4 style="margin-bottom: 8px;">Hi, we\'re <span>DIML.</span></h4><p class="nobottommargin">Our mission is to help people with <strong>computer vision technology</strong>.</div>',
+                icon: {
+                    image: "images/icons/map-icon-red.png",
+                    iconsize: [32, 39],
+                    iconanchor: [13,39]
+                }
+            }
+        ],
+        doubleclickzoom: false,
+        controls: {
+            panControl: true,
+            zoomControl: true,
+            mapTypeControl: true,
+            scaleControl: false,
+            streetViewControl: false,
+            overviewMapControl: false
+        }
+    });
+
+</script>
+
