@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231dd492-2f8d-4594-afbd-fe5056391eea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_includes/header-rawdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header-rawdata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_data/rawdata.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/rawdata.yml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -39,7 +39,7 @@
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
           <entry key="php" value="1" />
-          <entry key="yml" value="12" />
+          <entry key="yml" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -49,7 +49,7 @@
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
-          <entry key="YAML" value="12" />
+          <entry key="YAML" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -59,7 +59,7 @@
           <entry key="gitignore" value="20" />
           <entry key="html" value="3162" />
           <entry key="js" value="10" />
-          <entry key="yml" value="769" />
+          <entry key="yml" value="780" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -68,7 +68,7 @@
           <entry key="HTML" value="3162" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="22" />
-          <entry key="YAML" value="769" />
+          <entry key="YAML" value="780" />
         </counts>
       </usages-collector>
     </session>
@@ -99,11 +99,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="322">
+            <state relative-caret-position="222">
               <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="417">
+              <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
             </state>
           </provider>
         </entry>
@@ -128,7 +137,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#1ABC9C</find>
       <find>assets/css/images</find>
       <find>pattern2</find>
       <find>css/images</find>
@@ -158,6 +166,7 @@
       <find>logo</find>
       <find>coffee</find>
       <find>overview</find>
+      <find>store</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +179,6 @@
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/Gemfile" />
         <option value="$PROJECT_DIR$/rawdata-backup.html" />
-        <option value="$PROJECT_DIR$/_data/rawdata.yml" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/_includes/analytics.html" />
         <option value="$PROJECT_DIR$/_config.yml" />
@@ -189,6 +197,7 @@
         <option value="$PROJECT_DIR$/rawdata.html" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/header-rawdata.html" />
+        <option value="$PROJECT_DIR$/_data/rawdata.yml" />
       </list>
     </option>
   </component>
@@ -222,7 +231,7 @@
             <path>
               <item name="dimlrgbd.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="dimlrgbd.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+              <item name="_data" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -279,12 +288,12 @@
       <workItem from="1549529419880" duration="7382000" />
       <workItem from="1549546400554" duration="7432000" />
       <workItem from="1549587216795" duration="2555000" />
-      <workItem from="1549603959806" duration="290000" />
+      <workItem from="1549603959806" duration="361000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30403000" />
+    <option name="totallyTimeSpent" value="30474000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -346,13 +355,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore" />
-    <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2829">
-          <caret line="123" column="6" selection-start-line="123" selection-start-column="6" selection-end-line="123" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="115">
@@ -526,8 +528,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
+        <state relative-caret-position="222">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="417">
+          <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
         </state>
       </provider>
     </entry>

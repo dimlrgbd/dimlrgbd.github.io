@@ -121,7 +121,7 @@ indoor:
     - label:  Store
       index: 18
       link1: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/rawdata/18.%20Store.egg
-      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/17.%20Hospital.zip
+      link2: http://diml.yonsei.ac.kr/DIML_rgbd_dataset/indoor_2nd/18.%20Store.zip
       num1: 1
       num2: 1
 
