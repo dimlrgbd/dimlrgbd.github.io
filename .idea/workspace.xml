@@ -2,7 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="231dd492-2f8d-4594-afbd-fe5056391eea" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/_data/rawdata.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_data/rawdata.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/contact.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/counter.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/counter.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_includes/header.html" beforeDir="false" afterPath="$PROJECT_DIR$/_includes/header.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/feed.xml" beforeDir="false" afterPath="$PROJECT_DIR$/_site/feed.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_site/rawdata.html" beforeDir="false" afterPath="$PROJECT_DIR$/_site/rawdata.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -17,7 +24,7 @@
     <session id="1902362094">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
+          <entry key="project.closed" value="8" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
@@ -26,7 +33,8 @@
           <entry key="project.open.time.20" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.7" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -34,7 +42,7 @@
           <entry key="Gemfile" value="1" />
           <entry key="css" value="10" />
           <entry key="gitignore" value="1" />
-          <entry key="html" value="57" />
+          <entry key="html" value="63" />
           <entry key="js" value="2" />
           <entry key="lock" value="1" />
           <entry key="md" value="1" />
@@ -45,7 +53,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="10" />
-          <entry key="HTML" value="57" />
+          <entry key="HTML" value="63" />
           <entry key="JavaScript" value="2" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="4" />
@@ -57,7 +65,7 @@
           <entry key="Gemfile" value="2" />
           <entry key="css" value="81" />
           <entry key="gitignore" value="20" />
-          <entry key="html" value="3162" />
+          <entry key="html" value="3329" />
           <entry key="js" value="10" />
           <entry key="yml" value="780" />
         </counts>
@@ -65,7 +73,7 @@
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="81" />
-          <entry key="HTML" value="3162" />
+          <entry key="HTML" value="3329" />
           <entry key="JavaScript" value="10" />
           <entry key="PLAIN_TEXT" value="22" />
           <entry key="YAML" value="780" />
@@ -78,7 +86,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file:///Volumes/GoogleDrive/My Drive/WORKSPACE/WEB/TEMPLATE - HTML/canvas-51/HTML/modal-popovers.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-517">
+            <state relative-caret-position="1035">
               <caret line="45" selection-start-line="45" selection-end-line="45" />
               <folding>
                 <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
@@ -90,8 +98,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="358">
-              <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+            <state relative-caret-position="561">
+              <caret line="168" column="34" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
               </folding>
@@ -100,19 +108,64 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
+        <entry file="file://$PROJECT_DIR$/_includes/analytics.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="222">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state>
+              <caret column="90" selection-start-column="90" selection-end-column="90" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/counter.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="414">
+              <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/_includes/contact.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="459">
+              <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/header.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="196">
+              <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/sampledata.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="465">
+              <caret line="27" column="76" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="76" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="322">
+              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
+            <state relative-caret-position="87">
+              <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -137,8 +190,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>assets/css/images</find>
-      <find>pattern2</find>
       <find>css/images</find>
       <find>span:not(.nocolor):not(.badge), h3</find>
       <find>twent</find>
@@ -165,8 +216,10 @@
       <find>privacy</find>
       <find>logo</find>
       <find>coffee</find>
-      <find>overview</find>
       <find>store</find>
+      <find>c</find>
+      <find>data</find>
+      <find>overview</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -188,16 +241,16 @@
         <option value="$PROJECT_DIR$/assets/css/twentytwenty.css" />
         <option value="$PROJECT_DIR$/assets/js/jquery.twentytwenty.js" />
         <option value="$PROJECT_DIR$/_includes/sampledata.html" />
-        <option value="$PROJECT_DIR$/_includes/counter.html" />
         <option value="$PROJECT_DIR$/assets/css/style.css" />
         <option value="/Volumes/GoogleDrive/My Drive/WORKSPACE/WEB/TEMPLATE - HTML/canvas-51/HTML/modal-popovers.html" />
-        <option value="$PROJECT_DIR$/_includes/contact.html" />
         <option value="$PROJECT_DIR$/_includes/footer.html" />
-        <option value="$PROJECT_DIR$/_includes/header.html" />
         <option value="$PROJECT_DIR$/rawdata.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/_includes/header-rawdata.html" />
         <option value="$PROJECT_DIR$/_data/rawdata.yml" />
+        <option value="$PROJECT_DIR$/_includes/header.html" />
+        <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/_includes/counter.html" />
+        <option value="$PROJECT_DIR$/_includes/contact.html" />
       </list>
     </option>
   </component>
@@ -208,9 +261,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
-    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="877" />
+    <option name="height" value="900" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -220,7 +272,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -233,10 +284,16 @@
               <item name="dimlrgbd.github.io" type="462c0819:PsiDirectoryNode" />
               <item name="_data" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="dimlrgbd.github.io" type="b2602c69:ProjectViewProjectNode" />
+              <item name="dimlrgbd.github.io" type="462c0819:PsiDirectoryNode" />
+              <item name="_includes" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -288,12 +345,13 @@
       <workItem from="1549529419880" duration="7382000" />
       <workItem from="1549546400554" duration="7432000" />
       <workItem from="1549587216795" duration="2555000" />
-      <workItem from="1549603959806" duration="361000" />
+      <workItem from="1549603959806" duration="803000" />
+      <workItem from="1549859606648" duration="1177000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="30474000" />
+    <option name="totallyTimeSpent" value="32093000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -376,13 +434,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/analytics.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="90" selection-start-column="90" selection-end-column="90" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/components/ion.rangeslider.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="185">
@@ -435,20 +486,6 @@
     <entry file="file:///Volumes/GoogleDrive/My Drive/WORKSPACE/WEB/TEMPLATE - HTML/canvas-51/HTML/index-blog-3.html">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/sampledata.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="18" column="19" selection-start-line="18" selection-start-column="19" selection-end-line="18" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/counter.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/css/style.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -477,21 +514,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/contact.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="9" column="30" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_includes/footer-rawdata.html" />
-    <entry file="file://$PROJECT_DIR$/_includes/header.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="972">
-          <caret line="43" lean-forward="true" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rawdata.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="161">
@@ -501,11 +524,18 @@
     </entry>
     <entry file="file:///Volumes/GoogleDrive/My Drive/WORKSPACE/WEB/TEMPLATE - HTML/canvas-51/HTML/modal-popovers.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-517">
+        <state relative-caret-position="1035">
           <caret line="45" selection-start-line="45" selection-end-line="45" />
           <folding>
             <element signature="n#div#0;n#div#0;n#div#0;n#div#0;n#section#1;n#div#0;n#body#0;n#html#0;n#!!top" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="322">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -516,27 +546,55 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="87">
+          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/analytics.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="90" selection-start-column="90" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/sampledata.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="27" column="76" selection-start-line="27" selection-start-column="72" selection-end-line="27" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_includes/header.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="20" column="63" selection-start-line="20" selection-start-column="63" selection-end-line="20" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="358">
-          <caret line="62" lean-forward="true" selection-start-line="62" selection-end-line="62" />
+        <state relative-caret-position="561">
+          <caret line="168" column="34" selection-start-line="168" selection-start-column="34" selection-end-line="168" selection-end-column="34" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_includes/header-rawdata.html">
+    <entry file="file://$PROJECT_DIR$/_includes/counter.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        <state relative-caret-position="414">
+          <caret line="18" column="65" selection-start-line="18" selection-start-column="65" selection-end-line="18" selection-end-column="65" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_data/rawdata.yml">
+    <entry file="file://$PROJECT_DIR$/_includes/contact.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="417">
-          <caret line="122" column="65" selection-start-line="122" selection-start-column="65" selection-end-line="122" selection-end-column="65" />
+        <state relative-caret-position="459">
+          <caret line="42" column="51" selection-start-line="42" selection-start-column="51" selection-end-line="42" selection-end-column="51" />
         </state>
       </provider>
     </entry>

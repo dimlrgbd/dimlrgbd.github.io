@@ -39,7 +39,7 @@ layout: default
 		<section id="content">
 
 			<section class="content-wrap">
-        <section id="section-overview" class="page-section section nobg nomargin">
+        <section id="main" class="page-section section nobg nomargin">
           <div class="container clearfix">
             <div class="heading-block center">
               <h2>large-scale<span> RGB+D </span>Database</h2>
@@ -76,7 +76,7 @@ layout: default
                     </div>
                 </div><!-- .portfolio-single-image end -->
 
-              <div class="heading-block fancy-title nobottomborder title-bottom-border">
+              <div id="section-overview" class="heading-block fancy-title nobottomborder title-bottom-border">
                 <h4>Overview<span></span></h4>
               </div>
               <h4>We introduce an RGB-D scene dataset consisting of more than 200 indoor / outdoor scenes.</h4>
@@ -130,7 +130,7 @@ layout: default
 
               <div class="col_one_fourth nobottommargin center" data-animate="bounceIn" data-delay="400">
                 <i class="i-plain i-xlarge divcenter nobottommargin icon-coffee2"></i>
-                <div class="counter counter-lined"><span data-from="10" data-to="386" data-refresh-interval="25" data-speed="3500"></span></div>
+                <div class="counter counter-lined"><span data-from="10" data-to="3861" data-refresh-interval="25" data-speed="3500"></span></div>
                 <h5>Cups of Coffee</h5>
               </div>
 
@@ -160,12 +160,13 @@ layout: default
 
         <div class="clear"></div>
 
-        {% include counter.html %}
+
 
         <div class="divider divider-short divider-center topmargin-lg"><i class="icon-star3"></i></div>
 
         {% include contact.html %}
 
+        {% include counter.html %}
 
         </section> <!-- wrapper -->
 
