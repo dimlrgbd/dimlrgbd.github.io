@@ -63,6 +63,16 @@
 
 {% endfor %}
 
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-139401041-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-139401041-1');
+</script>
+
 <script>
     (function(w,d,s,g,js,fjs){
         g=w.gapi||(w.gapi={});g.analytics={q:[],ready:function(cb){this.q.push(cb)}};
@@ -113,4 +123,3 @@
     });
 
 </script>
-
