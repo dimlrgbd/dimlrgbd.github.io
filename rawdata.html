@@ -16,11 +16,27 @@ layout: default
   <section id="content">
 
     <!--<section class="content-wrap">-->
-      <section id="indoor" class="page-section section nomargin nobottompadding">
+      <section id="rawdata" class="page-section section nomargin nobottompadding">
         <div class="heading-block center">
-          <h2>Raw Dataset</h2>
+          <h2>Download Raw Dataset</h2>
           <span>Are you ready to dive into our RGB-D Dataset?</span>
+        </br>
+
+          <div class="center">
+
+            <a href="https://drive.google.com/drive/folders/1ebTSu4W6kbGFyDjeBsekXBUGKba47_5m" data-animate="tada" class="button button-desc button-3d button-rounded button-blue center"><i class="icon-download"></i></br></br>Download Dataset
+            <span>Redirected to Google Drive.</span>
+           </a>
+
+          </div>
+
         </div>
+
+        <section id="indoor" class="page-section section nomargin nobottompadding">
+          <div class="heading-block center">
+            <h3>What's inside our dataset?</h3>
+            <span>Let's have a look our dataset.</span>
+          </div>
 
           <div class="container clearfix">
             <div class="heading-block center nobottomborder">
@@ -32,7 +48,7 @@ layout: default
                       ============================================-->
 
 
-          </div>
+          <!-- </div> -->
 
           <!-- Portfolio Items
                   ============================================= -->
@@ -42,10 +58,10 @@ layout: default
             <article class="portfolio-item indoor">
               <div class="portfolio-image">
                 <img src="/images/dataset/in{{label.index}}.png" alt="Open Imagination">
-                <div class="portfolio-overlay">
+                <!-- <div class="portfolio-overlay">
                   <a href="{{label.link1}}" class="left-icon" data-lightbox="image">{{label.num1}}</a>
                   <a href="{{label.link2}}" class="right-icon" data-lightbox="image">{{label.num2}}</a>
-                </div>
+                </div> -->
               </div>
               <div class="portfolio-desc">
                 <h3>{{label.label}}</h3>
@@ -62,6 +78,9 @@ layout: default
             <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
           </div>
 
+
+
+
         <!-- Portfolio Items
                 ============================================= -->
           <div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full clearfix">
@@ -70,9 +89,10 @@ layout: default
           <article class="portfolio-item indoor">
             <div class="portfolio-image">
               <img src="/images/dataset/out{{label.index}}.png" alt="Open Imagination">
-              <div class="portfolio-overlay">
+              <!-- <div class="portfolio-overlay">
                 <a href="{{label.link1}}" class="icon" data-lightbox="image">{{label.num1}}</a>
-              </div>
+                <a class="icon" data-lightbox="image">{{label.num1}}</a>
+              </div> -->
             </div>
             <div class="portfolio-desc">
               <h3>{{label.label}}</h3>
