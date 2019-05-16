@@ -49,61 +49,47 @@ layout: default
           								</div>
           							</div>
           						</div>
-
-
           </div>
-
         </div>
+      </section>
+      <!-- </section> -->
 
-        <section id="indoor" class="page-section section nomargin nobottompadding">
+        <section id="indoor" class="page-section section nomargin  nobottompadding no nobottommargin">
           <div class="heading-block center">
             <h3>What's inside our dataset?</h3>
             <span>Let's have a look our dataset.</span>
           </div>
+        </section>
 
-          <div class="container clearfix">
-            <div class="heading-block center nobottomborder">
-              <h4><span>Indoor</span> Data</h4>
-              <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
-            </div>
-
-            <!-- Portfolio Filter
-                      ============================================-->
-
-
-          <!-- </div> -->
-
-          <!-- Portfolio Items
-                  ============================================= -->
+      <section id="outdoor" class="page-section section nomargin nopadding">
+        <div class="heading-block center nobottomborder">
+          <h4><span>Indoor</span> Data</h4>
+          <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
+        </div>
+        <!-- Portfolio Items
+                ============================================= -->
           <div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full clearfix">
 
             {% for label in site.data.rawdata.indoor %}
             <article class="portfolio-item indoor">
               <div class="portfolio-image">
                 <img src="/images/dataset/in{{label.index}}.png" alt="Open Imagination">
-                <!-- <div class="portfolio-overlay">
-                  <a href="{{label.link1}}" class="left-icon" data-lightbox="image">{{label.num1}}</a>
-                  <a href="{{label.link2}}" class="right-icon" data-lightbox="image">{{label.num2}}</a>
-                </div> -->
-              </div>
-              <div class="portfolio-desc">
-                <h3>{{label.label}}</h3>
-              </div>
-            </article>
-            {% endfor %}
+            </div>
+            <div class="portfolio-desc">
+              <h3>{{label.label}}</h3>
+            </div>
+          </article>
+          {% endfor %}
 
-          </div>
+        </div>
       </section><!-- #content end -->
+
 
       <section id="outdoor" class="page-section section nomargin">
           <div class="heading-block center nobottomborder">
             <h4><span>Outdoor</span> Data</h4>
             <p>[Place]-[Dates]-[Folder #]-[Frame #]</p>
           </div>
-
-
-
-
         <!-- Portfolio Items
                 ============================================= -->
           <div id="portfolio" class="portfolio grid-container portfolio-nomargin portfolio-full clearfix">
